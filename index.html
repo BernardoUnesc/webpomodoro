@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Uma aplicação web simples de pomodoro">
+    <meta name="keywords" content="Pomodoro, HTML, CSS, JavaScript">
+    <meta name="author" content="Bernardo Schmitz dos Santos">
+    <title class="title">Web Pomodoro</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+
+</head>
+
+<body>
+
+
+    <div class="main">
+        <span>Turnos</span>
+        <div class="row">
+            <div>
+                <img id="minus" src="assets/img/32px/minus.png" alt="Remover turno" title="Remover um turno">
+            </div>
+            <div class="turns"></div>
+            <div>
+                <img id="plus" src="assets/img/32px/plus.png" alt="Adicionar turno" title="Adicionar um turno">
+            </div>
+
+        </div>
+
+
+        <div class="time-container">
+
+            <svg class="circle-svg">
+                <circle class="background-circle"></circle>
+                <circle class="circle"></circle>
+            </svg>
+
+            <div class="time">Tempo</div>
+        </div>
+
+        <div class="time-mode">Trabalho</div>
+
+        <div>
+            <button class=timer-control>Iniciar </button>
+            <button class=reset-button><img src="assets/img/16px/hourglass.png"> Reiniciar</button>
+        </div>
+
+
+    </div>
+
+    <footer class="footer">Criado por: Bernardo Schmitz dos Santos</footer>
+
+    <audio id="click">
+        <source src="assets/audio/Click.m4a">
+
+
+    <audio id="notification">
+        <source src="assets/audio/notification.mp3">
+   
+
+           
+
+            <script src="scripts.js"></script>
+
+</body>
+
+
+
+
+</html>
